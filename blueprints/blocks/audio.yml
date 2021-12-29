@@ -1,0 +1,26 @@
+name: Audio
+icon: audio
+# preview: audio
+fields:
+  audio:
+    label: Fichier audio
+    type: files
+    multiple: false
+    query: page.audio
+    uploads:
+      template: blocks/audio
+  truc:
+    type: text
+  caption:
+    label: Légende
+    type: writer
+    icon: text
+    inline: true
+  layout:
+    type: select
+    label: Taille
+    options:
+      petit: 1 colonne
+      gros: 2 colonnes
+      huge: 3 colonnes
+  

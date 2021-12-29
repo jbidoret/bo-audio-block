@@ -1,0 +1,15 @@
+{
+    "name": "bo/audio-block",
+    "description": "Audio block for Bel Ordinaire",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Bidoret",
+            "email": "julien@accentgrave.net"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
